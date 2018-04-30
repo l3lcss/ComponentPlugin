@@ -23,3 +23,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Reference 
 https://www.notion.so/Component-Plugin-6e26bd402587434685bce0d595c59b97
+
+## Learning
+https://stories.sellsuki.co.th/%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B4%E0%B9%88%E0%B8%A1-vue-js-%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%87-%E0%B8%81%E0%B9%87%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%94%E0%B8%B0-427afe72c5a7
