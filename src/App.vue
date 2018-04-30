@@ -6,7 +6,16 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  created () {
+    console.log('I was born here')
+  },
+  beforeCreate () {
+    console.log('before Created')
+  },
+  beforeDestroy () {
+    console.log('This is my last word')
+  }
 }
 </script>
 
