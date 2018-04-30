@@ -1,12 +1,21 @@
 <template>
   <div id="app">
-    <router-view/>
+    <div class="HEAD"> THIS IS App.vue </div>
+    <my-title :titleName="title"></my-title>
+    <button @click="myFuncl3lcS"> Alert </button>
   </div>
 </template>
 
 <script>
+import myTitle from './components/HelloWorld'
 export default {
   name: 'App',
+  components: { myTitle },
+  data () {
+    return {
+      title: 'princel3lcS'
+    }
+  },
   created () {
     console.log('I was born here')
   },
@@ -15,6 +24,11 @@ export default {
   },
   beforeDestroy () {
     console.log('This is my last word')
+  },
+  methods: {
+    myFuncl3lcS () {
+      alert('Hello l3lcS')
+    }
   }
 }
 </script>
@@ -29,5 +43,9 @@ export default {
   margin-top: 60px;
   font-family: 'Do Hyeon', sans-serif;
   font-size: 40px;
+}
+.HEAD{
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 90px;
 }
 </style>
